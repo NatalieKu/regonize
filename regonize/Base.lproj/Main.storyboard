@@ -43,7 +43,7 @@
                                     <action selector="didChangeSelectedValue:" destination="BYZ-38-t0r" eventType="valueChanged" id="h6b-kP-VwZ"/>
                                 </connections>
                             </segmentedControl>
-                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="22fcd4e19bf2f9f5f53ff92c28b49783fbc1" translatesAutoresizingMaskIntoConstraints="NO" id="IJR-am-V2E">
+                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="image" translatesAutoresizingMaskIntoConstraints="NO" id="IJR-am-V2E">
                                 <rect key="frame" x="38" y="208" width="299" height="299"/>
                                 <constraints>
                                     <constraint firstAttribute="width" constant="299" id="8jX-lK-QwC"/>
@@ -155,6 +155,6 @@
         </scene>
     </scenes>
     <resources>
-        <image name="22fcd4e19bf2f9f5f53ff92c28b49783fbc1" width="229" height="229"/>
+        <image name="image" width="229" height="229"/>
     </resources>
 </document>
