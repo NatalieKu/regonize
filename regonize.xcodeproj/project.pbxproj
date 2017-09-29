@@ -7,14 +7,17 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		E044813E1F7910BD00B982D2 /* File.swift in Sources */ = {isa = PBXBuildFile; fileRef = E044813D1F7910BC00B982D2 /* File.swift */; };
 		E09B59301F76A80D00734D84 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = E09B592F1F76A80D00734D84 /* AppDelegate.swift */; };
 		E09B59321F76A80D00734D84 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E09B59311F76A80D00734D84 /* ViewController.swift */; };
 		E09B59351F76A80D00734D84 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = E09B59331F76A80D00734D84 /* Main.storyboard */; };
 		E09B59371F76A80D00734D84 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = E09B59361F76A80D00734D84 /* Assets.xcassets */; };
 		E09B593A1F76A80D00734D84 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = E09B59381F76A80D00734D84 /* LaunchScreen.storyboard */; };
+		E0EB686F1F76E380003C9675 /* Inceptionv3.mlmodel in Sources */ = {isa = PBXBuildFile; fileRef = E0EB686E1F76E363003C9675 /* Inceptionv3.mlmodel */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		E044813D1F7910BC00B982D2 /* File.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = File.swift; sourceTree = "<group>"; };
 		E09B592C1F76A80D00734D84 /* regonize.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = regonize.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		E09B592F1F76A80D00734D84 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		E09B59311F76A80D00734D84 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -22,6 +25,7 @@
 		E09B59361F76A80D00734D84 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		E09B59391F76A80D00734D84 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		E09B593B1F76A80D00734D84 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		E0EB686E1F76E363003C9675 /* Inceptionv3.mlmodel */ = {isa = PBXFileReference; lastKnownFileType = file.mlmodel; path = Inceptionv3.mlmodel; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -56,9 +60,11 @@
 			children = (
 				E09B592F1F76A80D00734D84 /* AppDelegate.swift */,
 				E09B59311F76A80D00734D84 /* ViewController.swift */,
+				E044813D1F7910BC00B982D2 /* File.swift */,
 				E09B59331F76A80D00734D84 /* Main.storyboard */,
 				E09B59361F76A80D00734D84 /* Assets.xcassets */,
 				E09B59381F76A80D00734D84 /* LaunchScreen.storyboard */,
+				E0EB686E1F76E363003C9675 /* Inceptionv3.mlmodel */,
 				E09B593B1F76A80D00734D84 /* Info.plist */,
 			);
 			path = regonize;
@@ -137,6 +143,8 @@
 			buildActionMask = 2147483647;
 			files = (
 				E09B59321F76A80D00734D84 /* ViewController.swift in Sources */,
+				E044813E1F7910BD00B982D2 /* File.swift in Sources */,
+				E0EB686F1F76E380003C9675 /* Inceptionv3.mlmodel in Sources */,
 				E09B59301F76A80D00734D84 /* AppDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -277,6 +285,7 @@
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = HC9UU37FN8;
 				INFOPLIST_FILE = regonize/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = "-1.regonize";
 				PRODUCT_NAME = "$(TARGET_NAME)";
@@ -292,6 +301,7 @@
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = HC9UU37FN8;
 				INFOPLIST_FILE = regonize/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = "-1.regonize";
 				PRODUCT_NAME = "$(TARGET_NAME)";
